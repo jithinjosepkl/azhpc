@@ -25,7 +25,8 @@
 			"defaultValue": "CentOS-7.6 HPC",
 			"allowedValues": [
 				"CentOS-7.6",
-				"CentOS-7.6 HPC"
+				"CentOS-7.6 HPC",
+				"CentOS-7.6 HPC-3"
 			],
 			"metadata": {
 				"description": "The VM image of the compute nodes"
@@ -89,6 +90,9 @@
 				"offer": "CentOS-HPC",
 				"sku": "7.6",
 				"version": "latest"
+			},
+			"CentOS-7.6 HPC-3": {	
+				"id": "[resourceId('d2c9544f-4329-4642-b73d-020e7fef844f', 'test-centos-rg', 'Microsoft.Compute/images', 'centos-hpc')]"	
 			}
 		},
 		"imageReference": "[variables('hpcImageTypes')[parameters('computeNodeImage')]]",
