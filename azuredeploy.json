@@ -92,7 +92,7 @@
 				"version": "latest"
 			},
 			"CentOS-7.6 HPC-3": {	
-				"id": "[resourceId('d2c9544f-4329-4642-b73d-020e7fef844f', 'test-centos-rg', 'Microsoft.Compute/images', 'centos-hpc')]"	
+				"id": "[resourceId('d2c9544f-4329-4642-b73d-020e7fef844f', 'tst-img-rg', 'Microsoft.Compute/images', 'OpenLogic-CentOS-76-HPC-20190529')]"
 			}
 		},
 		"imageReference": "[variables('hpcImageTypes')[parameters('computeNodeImage')]]",
