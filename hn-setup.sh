@@ -12,7 +12,7 @@ mkdir -p /mnt/resource/scratch
 chmod a+rwx /mnt/resource/scratch
 
 yum --enablerepo=extras install -y -q epel-release
-yum install -y -q nfs-utils nmap htop pdsh screen git axel 
+yum install -y -q nfs-utils nmap pdsh screen git
 # need to update for git work
 yum update -y nss curl libcurl
 
